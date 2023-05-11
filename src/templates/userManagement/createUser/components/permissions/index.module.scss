@@ -1,0 +1,28 @@
+.permissions-cont {
+  h2 {
+    border-bottom: 2px dashed var(--lightGrey);
+  }
+  .permissions-table {
+    th,
+    td {
+      background-color: var(--background);
+      min-width: auto;
+    }
+    .first {
+      padding-left: 0;
+    }
+  }
+  input[type="checkbox"] {
+    position: relative;
+    left: 0.7rem;
+  }
+  input[type="checkbox"] + label {
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    border: 2px solid var(--main);
+    border-radius: 4px;
+    position: relative;
+    left: -0.7rem;
+  }
+}

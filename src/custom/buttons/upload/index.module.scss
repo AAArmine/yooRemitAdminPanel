@@ -1,0 +1,24 @@
+.upload-cont {
+  width: 100%;
+  label {
+    width: 100%;
+    color: var(--buttonGrey);
+    font-size: 14px;
+    padding: 0.5rem;
+    display: block;
+    border: 1px solid var(--lightGrey);
+    border-radius: 7px;
+    transform: all 0.2s ease;
+    &.error {
+      border: 1px solid var(--error);
+    }
+    &:hover {
+      transform: scale(0.99, 0.95);
+      background-color: rgba(128, 128, 128, 0.041);
+    }
+    svg {
+      display: inline;
+      margin-right: 0.5rem;
+    }
+  }
+}

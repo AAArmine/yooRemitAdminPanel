@@ -1,0 +1,9 @@
+@import "../../assets/style/breakpoints/breakpoints.scss";
+.layout {
+  display: flex;
+  width: 100%;
+  .pattern {
+    width: 83%;
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,89 @@
+.form-section {
+  .company-details {
+    border-bottom: 2px dashed var(--lightGrey);
+    .company-details-item {
+      width: 25%;
+      padding: 0 0.5rem;
+      position: relative;
+      span {
+        cursor: pointer;
+        svg {
+          width: 90%;
+        }
+      }
+      .button-item {
+        width: 50%;
+      }
+    }
+  }
+  .contact-person-details {
+    border-bottom: 2px dashed var(--lightGrey);
+    .contact-person-detais-item {
+      width: 25%;
+      padding: 0 0.5rem;
+      .button-item {
+        width: 50%;
+      }
+    }
+  }
+  .button-cont {
+    width: 25%;
+    padding-right: 0.5rem;
+  }
+  .fee-cont {
+    border-top: 2px dashed var(--lightGrey);
+    span {
+      color: var(--buttonGrey);
+      font-size: 14px;
+    }
+  }
+  .payment-method-cont {
+    margin-bottom: 20px;
+    h3 {
+      font-size: 22px;
+      font-weight: 900;
+      font-family: workSans-bold;
+      padding: 2rem 0 0.5rem 0;
+      border-bottom: 2px dashed var(--lightGrey);
+    }
+    .payment-chose {
+      width: 50%;
+      .payment-item {
+        width: 50%;
+        padding: 0 0.5rem;
+        height: 38px;
+        margin-bottom: 10px;
+        &.chose {
+          border: 1px solid var(--lightGrey);
+          border-radius: 7px;
+          .relative {
+            position: relative;
+            top: 7px;
+          }
+          svg {
+            display: inline;
+            position: relative;
+            top: -5px;
+          }
+          label {
+            padding: 0 0.4rem;
+            padding-right: 1rem;
+            position: relative;
+            top: -5px;
+            display: inline;
+          }
+          
+        }
+      }
+    }
+    .buttons-cont {
+      width: 50%;
+      // justify-content: right;
+      display: flex;
+      .buttons-item {
+        width: 50%;
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}

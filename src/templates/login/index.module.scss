@@ -1,0 +1,12 @@
+@import "../../assets/style/breakpoints/breakpoints.scss";
+.login-cont {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  @include medium {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+}

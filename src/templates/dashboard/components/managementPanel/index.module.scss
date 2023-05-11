@@ -1,0 +1,23 @@
+.panel-cont {
+  display: flex;
+  justify-content: space-between;
+  .data {
+    h4 {
+      color: var(--grey);
+      font-weight: 600;
+    }
+  }
+  .value {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .value.main {
+    color: var(--main);
+  }
+  .value.secondary {
+    color: var(--secondary);
+  }
+  .value.alternative {
+    color: var(--alternative);
+  }
+}

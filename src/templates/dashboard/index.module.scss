@@ -1,0 +1,43 @@
+.dashboard-cont {
+  width: 100%;
+  .dashboard-item,
+  .management-item {
+    width: 23%;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid #d5d5d566;
+
+    a:hover {
+      color: var(--black);
+    }
+  }
+  .dashboard-item {
+    height: 12rem;
+    .image-cont {
+      padding-bottom: 1.5rem;
+    }
+    .arrow {
+      padding-left: 2rem;
+      top: 2px;
+      display: inline;
+      svg {
+        display: inline;
+        transform: rotate(-90deg);
+      }
+    }
+    span {
+      align-self: baseline;
+      font-family: workSans-bold;
+      display: inline;
+    }
+    .item-icon {
+      width: 4rem;
+    }
+  }
+}
+.secondary-title {
+  padding-top: 7rem;
+  font-size: 18px;
+}

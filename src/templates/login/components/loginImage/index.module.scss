@@ -1,0 +1,14 @@
+@import "assets/style/breakpoints/breakpoints.scss";
+.image-cont {
+  background-color: var(--secondary);
+  width: 53%;
+  position: relative;
+  @include medium {
+    display: none;
+  }
+  img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+}

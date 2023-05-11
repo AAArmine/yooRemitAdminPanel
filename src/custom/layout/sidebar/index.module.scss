@@ -1,0 +1,54 @@
+@import "assets/style/breakpoints/breakpoints.scss";
+.sidebar {
+  width: 17%;
+  min-width: 18rem;
+  min-height: 100vh;
+  background-image: linear-gradient(var(--main), var(--alternative));
+  color: white;
+  .logo-cont {
+    padding: 3rem 2rem;
+    img {
+      width: 70%;
+    }
+  }
+  .sidenav {
+    padding: 0 1.5rem;
+    .sidenav-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+      height: 2.7rem;
+      align-items: center;
+      padding: 0 0.5rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      color: white;
+      &.active {
+        background-color: rgba(255, 255, 255, 0.25);
+      }
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+      }
+      a {
+        color: white;
+      }
+      div {
+        width: 10%;
+        height: auto;
+      }
+      span {
+        width: 90%;
+        padding-left: 0.7rem;
+        font-size: 15px;
+        line-height: 15px;
+      }
+    }
+  }
+  .expand {
+    position: relative;
+  }
+  .expand.rotate {
+    transform: rotate(180deg);
+    left: -6px;
+  }
+}

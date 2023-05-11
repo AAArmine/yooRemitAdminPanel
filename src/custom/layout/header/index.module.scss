@@ -1,0 +1,33 @@
+.header {
+  height: 7.5vh;
+  width: 100%;
+  border-bottom: 1px solid var(--lightGrey);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+  svg {
+    display: inline;
+  }
+  .time {
+    font-size: 13px;
+    display: inline;
+    .inline {
+      position: relative;
+      top: -2px;
+    }
+    span {
+      padding-left: 0.5rem;
+    }
+  }
+  .logout {
+    padding-right: 2rem;
+    .inline {
+      position: relative;
+      top: -2px;
+    }
+    span {
+      padding-right: 20px;
+    }
+  }
+}

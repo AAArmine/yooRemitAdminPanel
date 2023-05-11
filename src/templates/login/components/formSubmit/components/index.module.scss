@@ -1,0 +1,44 @@
+form {
+  width: 100%;
+  position: relative;
+  label {
+    display: block;
+    color: var(--grey);
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    background-color: white;
+    width: fit-content;
+    padding: 3px;
+    left: 8px;
+    margin-top: 0.8rem;
+  }
+  input {
+    border: 1px solid var(--lightGrey);
+    border-radius: 7px;
+    padding: 0.7rem;
+    width: 100%;
+    &.border {
+      border: 1px solid #f42b5870;
+    }
+  }
+  .eye1 {
+    top: 36px;
+    right: 7px;
+  }
+  .eye2 {
+    top: 120px;
+    right: 7px;
+  }
+  .submit-cont {
+    padding-top: 2rem;
+  }
+  .message {
+    text-align: right;
+    // font-family: workSans-bold;
+    font-size: 14px;
+    padding-top: 1.5rem;
+    font-weight: 500;
+  }
+}

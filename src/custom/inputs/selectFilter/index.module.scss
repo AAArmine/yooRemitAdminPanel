@@ -1,0 +1,40 @@
+.filter-item-cont {
+  width: 100%;
+  position: relative;
+  label {
+    position: absolute;
+    top: -2px;
+    background-color: white;
+    font-size: 11px;
+    left: 0.5rem;
+    padding: 0;
+    line-height: 0.2rem;
+    z-index: 2;
+    font-weight: 600;
+    color: var(--grey);
+  }
+  select {
+    width: 100%;
+    color: var(--grey);
+    border: 1px solid var(--lightGrey);
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 7px;
+    box-sizing: border-box;
+    line-height: 30px;
+    background-color: white;
+    position: relative;
+    background-color: var(--background);
+    &:disabled {
+      border: 1px solid rgba(172, 172, 172, 0.116);
+    }
+    &:focus {
+      outline: none;
+    }
+    span {
+      position: absolute;
+      right: 0.5rem;
+      top: 0.8rem;
+    }
+  }
+}

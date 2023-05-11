@@ -1,0 +1,19 @@
+@import "assets/style/breakpoints/breakpoints.scss";
+.invoices-wrapper {
+  width: 100%;
+  @include large {
+    flex-wrap: wrap;
+  }
+  .invoice-table-cont {
+    max-width: 68%;
+    @include large {
+      max-width: 100%;
+    }
+  }
+  .invoice-statistics-cont {
+    flex: 1;
+    @include large {
+      width: 100%;
+     }
+  }
+}

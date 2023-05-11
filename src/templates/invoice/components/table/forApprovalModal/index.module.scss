@@ -1,0 +1,67 @@
+@import "assets/style/breakpoints/breakpoints.scss";
+.modal-cont {
+  .buttons-wrapper {
+    width: 66%;
+    @include medium {
+      width: 100%;
+    }
+    .button-cont {
+      width: 49%;
+    }
+  }
+  .details-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 2px dashed var(--lightGrey);
+    .detail-item {
+      width: 32.5%;
+    }
+  }
+  .fee-details-cont {
+    padding-top: 2rem;
+    width: 100%;
+    // white-space: nowrap;
+    // // position: relative;
+    // overflow-x: scroll;
+    // display: inline-block;
+    // min-width: 800px;
+    .fee-details {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px dashed var(--lightGrey);
+      margin-bottom: 1rem;
+      .title {
+        width: 32%;
+        max-width: 175px;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      .data {
+        width: 22%;
+        text-align: center;
+      }
+    }
+  }
+  .title-item {
+    padding-bottom: 18px;
+    font-size: 14px;
+    font-weight: 500;
+
+    &.bolder {
+      font-weight: 900;
+    }
+  }
+  h4 {
+    font-size: 13px;
+    font-weight: 800;
+    position: relative;
+    top: -30px;
+    color: var(--black);
+  }
+  .subtotal {
+    border-bottom: 2px dashed var(--lightGrey);
+  }
+}

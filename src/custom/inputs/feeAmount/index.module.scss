@@ -1,0 +1,27 @@
+.custom-input {
+  padding: 4px;
+  border: 1px solid var(--lightGrey);
+  border-radius: 10px;
+  width:100%;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: var(--background);
+  &::placeholder {
+    color: var(--black);
+  }
+  &.error {
+    border: 1px solid var(--error);
+  }
+  &:disabled {
+    border: 1px solid rgba(172, 172, 172, 0.116);
+  }
+}
+.dollar {
+  position: absolute;
+  top: 8px;
+  right: 11px;
+  &.right {
+    right: 33px;
+  }
+}

@@ -1,0 +1,66 @@
+.payment-method-cont {
+  margin-bottom: 20px;
+  h3 {
+    font-size: 22px;
+    font-weight: 900;
+    font-family: workSans-bold;
+    padding: 2rem 0 0.5rem 0;
+    border-bottom: 2px dashed var(--lightGrey);
+  }
+  .payment-chose {
+    width: 50%;
+    .payment-item {
+      width: 50%;
+      padding: 0 0.5rem;
+      height: 38px;
+      margin-bottom: 10px;
+      &.chose {
+        border: 1px solid var(--lightGrey);
+        border-radius: 7px;
+        .relative {
+          position: relative;
+          top: 7px;
+        }
+        svg {
+          display: inline;
+          position: relative;
+          top: -5px;
+        }
+        label {
+          padding: 0 0.4rem;
+          padding-right: 1rem;
+          position: relative;
+          top: -5px;
+          display: inline;
+        }
+        input[type="radio"] {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          // display: inline;
+          width: 20px;
+          height: 20px;
+          padding: 4px;
+          background-clip: content-box;
+          border: 2px solid var(--lightGrey);
+          background-color: var(--background);
+          border-radius: 50%;
+        }
+        input[type="radio"]:checked {
+          background-color: var(--main);
+          border: 2px solid var(--main);
+        }
+      }
+    }
+  }
+  .buttons-cont {
+    width: 50%;
+    // justify-content: right;
+    display: flex;
+    .buttons-item {
+      width: 50%;
+      margin: 0 0.5rem;
+     
+    }
+  }
+}

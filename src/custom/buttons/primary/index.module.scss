@@ -1,0 +1,27 @@
+.primary,
+.add {
+  width: 100% !important;
+  border-radius: 7px !important;
+  color: white;
+  transition: transform 0.2s ease;
+  height: 2.4rem;
+  font-size: 14px;
+  &:hover {
+    transform: scale(0.99, 0.95);
+  }
+}
+.primary {
+  background-color: var(--main) !important;
+  border: none !important;
+  font-weight: 600 !important;
+  &.inactive {
+    background-color: #b4b5b7 !important;
+    pointer-events: none;
+  }
+}
+
+.add {
+  outline: 1px solid var(--secondary);
+  color: var(--secondary);
+  margin-bottom: 1.5rem;
+}

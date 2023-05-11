@@ -1,0 +1,35 @@
+@import "assets/style/breakpoints/breakpoints.scss";
+.form-cont {
+  width: 40%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include medium {
+    width: 100%;
+    min-height: 30rem;
+  }
+  h1 {
+    text-align: center;
+    font-family: workSans-bold;
+    font-size: 28px;
+  }
+  p {
+    text-align: center;
+    color: var(--grey);
+  }
+  .logo-cont {
+    position: absolute;
+    bottom: 5rem;
+    @include medium {
+      top: 28rem;
+      padding-bottom: 5rem;
+    }
+  }
+  .form {
+    width: 18vw;
+    @include medium {
+      width: 80%;
+    }
+  }
+}

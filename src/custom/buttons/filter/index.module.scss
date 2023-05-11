@@ -1,0 +1,20 @@
+.filter-button {
+  width: 100%;
+  color: var(--main);
+  font-weight: 600 !important;
+  transition: background-color 0.5s ease;
+  height: 2.3rem;
+  background-color: var(--background);
+  border: 2px solid var(--main);
+  border-radius: 7px;
+  transition: transform 0.2s ease;
+  &.inactive {
+    border: 2px solid #B4B5B7;
+    color: #B4B5B7;
+    pointer-events: none;
+  }
+  &:hover {
+    background-color: white;
+    transform: scale(0.99);
+  }
+}
